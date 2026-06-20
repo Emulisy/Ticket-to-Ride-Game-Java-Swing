@@ -13,7 +13,7 @@ and Design**. The intension is to build a structured prototype of the famous boa
 and no external library is required. Since the requirement asked for manual tests, 
 automated testing frameworks like **Maven** or **Gradle** is not supported.
 
-The project aims to demonstrate the ability to create functional software that abide to
+The project aims to demonstrate the ability to create functioning software that abide to
 Object-Oriented Programing principles and is easy to extend and debug.
 
 ## Game extensions
@@ -37,6 +37,17 @@ effects to route claiming action.
 - **Observer:** used to notify interface components when the game state changes.
   This keeps the board, cards, player information, and turns synchronized without
   tightly coupling the interface to game actions.
+
+## Run executable Jar
+One of the deliverables for this assignment is the executable program, in this case, the .jar.
+
+The ticket_to_ride_game.jar can be run on java 17+ installed environment by double-clicking.
+
+If double-clicking didn't work, try open with terminal
+
+```angular2html
+java -jar ticket_to_ride_game.jar
+```
 
 ## Run from IntelliJ
 
