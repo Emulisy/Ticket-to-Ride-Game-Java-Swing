@@ -1,0 +1,9 @@
+package control;
+
+public enum WeatherType {
+  GOVERNMENT_SUBSIDY,
+  COAL_SHORTAGE,
+  RAILWAY_STRIKE,
+  INDUSTRIAL_BOOM,
+  NORMAL_ROUND
+}

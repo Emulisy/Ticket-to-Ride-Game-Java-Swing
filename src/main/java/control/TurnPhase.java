@@ -1,0 +1,9 @@
+package control;
+
+public enum TurnPhase {
+  NOT_STARTED,
+  SETUP_DRAW_TICKETS,
+  WAITING_FOR_ACTION,
+  DRAW_SECOND_TRAIN_CARD,
+  GAME_ENDED
+}

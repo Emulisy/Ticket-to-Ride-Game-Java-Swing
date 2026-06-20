@@ -1,0 +1,16 @@
+# Generated Java output
+*.class
+*.jar
+out/
+target/
+build/
+
+# Local IntelliJ and tool state
+.idea/workspace.xml
+.idea/shelf/
+.agents/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
